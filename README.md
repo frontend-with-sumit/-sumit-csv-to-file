@@ -73,7 +73,3 @@ Sumit Kumar
 ## Acknowledgments
 
 Special thanks to the open-source community and libraries used in this project.
-
-## Version History
-
-- 1.0.0 (Initial Release)
