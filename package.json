@@ -7,7 +7,7 @@
 		"@sumit/csv-to-file": "index.js"
 	},
 	"scripts": {
-		"dev": "node index.js --input ./translations.csv --output ./output.xlsx"
+		"dev": "node index.js --input ./translations.csv --output ./output.js"
 	},
 	"keywords": [],
 	"author": "",
