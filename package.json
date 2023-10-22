@@ -1,7 +1,7 @@
 {
 	"name": "csv-to-file",
-	"version": "1.0.1",
-	"description": "A small utility to read a csv file and print it as an object into the output",
+	"version": "1.0.0",
+	"description": "A simple command-line tool that converts a CSV file to your specified file for easy data manipulation and integration in your projects.",
 	"main": "index.js",
 	"bin": {
 		"csv-to-file": "index.js"
@@ -10,8 +10,16 @@
 		"dev": "node index.js --input ./translations.csv --output ./output.js"
 	},
 	"keywords": [
-		"csv-to-file",
-		"@sumit/csv-to-file"
+		"csv",
+		"javascript",
+		"conversion",
+		"utility",
+		"command-line",
+		"tool",
+		"data",
+		"transformation",
+		"node",
+		"npm"
 	],
 	"author": "",
 	"license": "MIT",

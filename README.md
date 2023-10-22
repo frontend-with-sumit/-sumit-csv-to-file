@@ -2,7 +2,7 @@
 
 A simple command-line tool that converts a CSV file to your specified file for easy data manipulation and integration in your projects.
 
-**_NOTE:_** This tool is designed only to be used for internal purposes only. Because it accepts and returns a specific format only useful for the organization only.
+**_NOTE:_** This tool is designed to be used for internal purposes. It accepts and returns a specific format only.
 
 ## Input
 
@@ -21,11 +21,22 @@ export const <variable_name> = {
 };
 ```
 
+In the converted file the variable name will be in **uppercase** and all the whitespaces will be replaced with **underscores(\_)**. Please refer to the below example:
+
+### Example
+
+```
+export const NEWEST_TO_OLDEST = {
+    eng: "Newest to Oldest",
+    bhs: "Terbaru ke Terlama"
+}
+```
+
 ## Installation
 
 To use this tool, you need to have Node.js installed on your system. If you don't have it, download and install it from [nodejs.org](https://nodejs.org/).
 
-You can install the CSV to JavaScript CLI tool globally using npm:
+You can install this CLI tool globally using npm:
 
 ```bash
 npm install -g csv-to-file
@@ -73,7 +84,3 @@ Sumit Kumar
 ## Acknowledgments
 
 Special thanks to the open-source community and libraries used in this project.
-
-## Version History
-
-- 1.0.0 (Initial Release)
