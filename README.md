@@ -17,7 +17,7 @@ A CSV file with the following format:
 ```node
 export const <variable_name> = {
     eng: <english_text>,
-    bhs: <bahasa text>
+    bhs: <bahasa_text>
 };
 ```
 
