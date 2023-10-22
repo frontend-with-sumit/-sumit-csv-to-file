@@ -1,0 +1,21 @@
+{
+	"name": "@sumit/csv-to-file",
+	"version": "1.0.0",
+	"description": "A small utility to read a csv file and print it as an object into the output",
+	"main": "index.js",
+	"bin": {
+		"@sumit/csv-to-file": "index.js"
+	},
+	"scripts": {
+		"dev": "node index.js --input ./translations.csv --output ./output.xlsx"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"csv-parse": "^5.5.2"
+	},
+	"devDependencies": {
+		"yargs": "^17.7.2"
+	}
+}
