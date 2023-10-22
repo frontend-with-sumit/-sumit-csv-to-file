@@ -1,6 +1,6 @@
 {
 	"name": "csv-to-file",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A small utility to read a csv file and print it as an object into the output",
 	"main": "index.js",
 	"bin": {
