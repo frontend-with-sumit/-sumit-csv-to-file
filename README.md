@@ -1,4 +1,4 @@
-# @sumit/csv-to-file
+# csv-to-file
 
 A simple command-line tool that converts a CSV file to your specified file for easy data manipulation and integration in your projects.
 
@@ -28,7 +28,7 @@ To use this tool, you need to have Node.js installed on your system. If you don'
 You can install the CSV to JavaScript CLI tool globally using npm:
 
 ```bash
-npm install -g @sumit/csv-to-file
+npm install -g csv-to-file
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ npm install -g @sumit/csv-to-file
 Run the tool with the following command
 
 ```bash
-@sumit/csv-to-file --input input.csv --output output.js
+csv-to-file --input input.csv --output output.js
 ```
 
 **_NOTE:_** Please choose output file name carefully to get expected results. Recommended extensions - **.txt**, **.js**
@@ -49,7 +49,7 @@ Run the tool with the following command
 ### Example
 
 ```bash
-@sumit/csv-to-file --input data.csv --output data.js
+csv-to-file --input data.csv --output data.js
 ```
 
 This will convert the **data.csv** file to **data.js** file.
