@@ -1,6 +1,6 @@
 {
 	"name": "csv-to-file",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "A simple command-line tool that converts a CSV file to your specified file for easy data manipulation and integration in your projects.",
 	"main": "index.js",
 	"bin": {
@@ -21,6 +21,10 @@
 		"node",
 		"npm"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/frontend-with-sumit/csv-to-file"
+	},
 	"author": "",
 	"license": "MIT",
 	"dependencies": {
